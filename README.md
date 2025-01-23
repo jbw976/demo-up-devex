@@ -23,6 +23,7 @@ curl https://cli.upbound.io/ | CHANNEL=alpha sh
 sudo mv up /usr/local/bin/
 up version
 up login
+up profile list
 ```
 
 ## Design the API
@@ -287,6 +288,7 @@ commands similar to below and ensure no resources are left behind:
 kubectl delete -f examples/storagebucket/example.yaml
 up alpha get managed
 
+up ctx ..
 up ctp delete demo-up-devex
 up ctp list
 
