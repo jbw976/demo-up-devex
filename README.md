@@ -275,8 +275,10 @@ https://marketplace.upbound.io/account/jaredorg/demo-up-devex_storage-function
 
 You can get a feel for managing and maintaining a control plane in production
 with Upbound Cloud by revisiting your development control plane and diving into
-all the rich resource details, graphs, events, etc.  Navigate once again to a
-URL similar to the below based on your organization and control plane:
+all the rich resource details, graphs, events, etc.  There's also functionality
+for backups and disaster recovery, credential management, and observability
+across your control planes! Navigate once again to a URL similar to the below
+based on your organization and control plane:
 
 https://console.upbound.io/jaredorg/spaces/upbound-gcp-us-central-1/groups/default/controlPlanes
 
